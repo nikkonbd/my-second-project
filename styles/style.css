@@ -1,4 +1,69 @@
 *{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation5.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    padding: 175px 307px;
+}
+.title .sub-title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    padding-bottom: 20px;
+
+}
+.sub-title-text{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.btn-primary{
+    background-color: #FF5959;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Donate Today Styles */
+
+.donate .donate-title{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.donate-description{
+    text-align: center;
+    padding: 0 400px 0 400px;
+    padding-bottom: 50px;
+
+}
+.donate-tk{
+    display: flex;
+    gap: 30px;
+    padding-left: 330px;
+    padding-bottom: 50px;
+}
+.donate-tk .tk{
+    background-color:#dfdede;
+    padding: 44px 24px;
+}
+.donate-tk .mark-tk{
+    color: #FF5959;
+    background-color: #fac8c8;
+    padding: 44px 24px;
+}.amount-tk{
+    text-align: center;
+    font-size: 18px;
+}
+hr{
+    margin: 0 350px 0 350px;
 }

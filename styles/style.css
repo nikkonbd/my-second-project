@@ -42,15 +42,15 @@ header{
 }
 .donate-description{
     text-align: center;
-    padding: 0 400px 0 400px;
+    margin: 0 400px;
     padding-bottom: 50px;
 
 }
 .donate-tk{
     display: flex;
     gap: 30px;
-    padding-left: 330px;
-    padding-bottom: 50px;
+    margin: 0 330px;
+    margin-bottom: 50px;
 }
 .donate-tk .tk{
     background-color:#dfdede;
@@ -84,7 +84,7 @@ hr{
 .donate-plan{
     display: flex;
     gap: 30px;
-    padding-left: 190px;
+    margin: 0 220px;
 }
 .donate-section{
     background-color: #dfdede;
@@ -96,11 +96,11 @@ hr{
     padding-left: 28px;
     padding-bottom: 28px;
 }
-.donate-section h3{
+.donate-section .donate-plan-title{
     padding-left: 28px;
     padding-bottom: 16px;
 }
-.donate-section p{
+.donate-section .donate-plan-description{
     padding-left: 28px;
     padding-bottom: 50px;
 }

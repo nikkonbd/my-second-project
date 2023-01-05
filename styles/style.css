@@ -60,10 +60,47 @@ header{
     color: #FF5959;
     background-color: #fac8c8;
     padding: 44px 24px;
-}.amount-tk{
+/* }.amount-tk{
     text-align: center;
-    font-size: 18px;
+    font-size: 18px; */
 }
 hr{
     margin: 0 350px 0 350px;
+}
+.donate-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.input{
+    border: none;
+    /* margin-left: 610px; */
+}
+.input-tk{
+    text-align: center;
+}
+
+/* Our Donate Plan Styles */
+
+.donate-plan{
+    display: flex;
+    gap: 30px;
+    padding-left: 190px;
+}
+.donate-section{
+    background-color: #dfdede;
+    width: 300px;
+    height: 300px;
+}
+.donate-section img{
+    padding-top: 50px;
+    padding-left: 28px;
+    padding-bottom: 28px;
+}
+.donate-section h3{
+    padding-left: 28px;
+    padding-bottom: 16px;
+}
+.donate-section p{
+    padding-left: 28px;
+    padding-bottom: 50px;
 }

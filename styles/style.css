@@ -87,7 +87,8 @@ hr{
     margin: 0 220px;
 }
 .donate-section{
-    background-color: #dfdede;
+    background: #FFF4D6;
+    border-radius: 10px;
     width: 300px;
     height: 300px;
 }
@@ -103,4 +104,77 @@ hr{
 .donate-section .donate-plan-description{
     padding-left: 28px;
     padding-bottom: 50px;
+}
+
+/* How To Contribute Section 1 */
+.contribute-donate{
+    display: flex;
+    margin: 0 220px;
+    margin-top: 80px;
+    gap: 30px;
+}
+.contribute-donate .contribute-image{
+    width: 456px;
+    height: 450px;
+}
+.contribute-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.con-description{
+    margin-bottom: 20px;
+}
+.survive{
+    margin-left: 30px;
+}
+/* Get My Updates Styles */
+.updates{
+    text-align: center;
+    margin-top: 130px;
+}
+.updates .update-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.update-description{
+    margin: 0 400px;
+}
+.container{
+    text-align: center;
+    background-color: #fac8c8;
+    width: 810px;
+    height: 200px;
+    margin: 0 300px;
+    margin-top: 60px;
+}
+.container-main{
+    padding: 90px 50px;
+}
+input[type=submit] {
+    background-color: #FF5959;
+    color: white;
+    border: none;
+}
+input[type=text], input[type=submit] {
+    padding: 12px;
+    border: none
+}
+/* Footer Section */
+.footer{
+    background-color: #0B0D17;
+    height: 177px;
+    margin-top: 80px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-title{
+    padding-top: 80px;
+    color: #FFFFFF;
+}
+.footer-subtitle{
+    color: #FFFFFF;
 }
